@@ -1,6 +1,6 @@
 # C++ Agent dev team experiment
 
-This repository hosts an agent-based development framework designed to facilitate the automated creation of C++ applications using the openai api and LangGraph (https://langchain-ai.github.io/langgraph/). The framework employs a series of specialized agents, each fulfilling a critical role in the development lifecycle, managed through a develop-test-debug loop to ensure robust, efficient, and modular software development.
+This repository hosts an agent-based development framework designed to facilitate the automated creation of C++ applications using the openai api and LangGraph (https://langchain-ai.github.io/langgraph/) and Tavily (https://tavily.com/). The framework employs a series of specialized agents, each fulfilling a critical role in the development lifecycle, managed through a develop-test-debug loop to ensure robust, efficient, and modular software development.
 
 ## Features
 
@@ -59,5 +59,6 @@ Before you begin, ensure you have the following installed:
 
 ## Run
 
-When you edited the prompts.py with descriptions of your application and requirements, start the development process by running the agents_dev_team.py script.
-
+When you edited the prompts.py with descriptions of your application and requirements, start the development process by running the agents_dev_team script which requires you to input your openai and tavily api keys. This will initiate and run the development process, and output the resulting application source code in the current directory.
+```bash
+   python agents_dev_team.py --openai_key "YOUR_OPENAI_API_KEY" --tavily_key "YOUR_TAVILY_API_KEY" 
