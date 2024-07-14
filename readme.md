@@ -1,6 +1,6 @@
 # C++ Agent dev team experiment
 
-This repository hosts an agent-based development framework designed to facilitate the automated creation of C++ applications using the openai api. The framework employs a series of specialized agents, each fulfilling a critical role in the development lifecycle, managed through a develop-test-debug loop to ensure robust, efficient, and modular software development.
+This repository hosts an agent-based development framework designed to facilitate the automated creation of C++ applications using the openai api and LangGraph (https://langchain-ai.github.io/langgraph/). The framework employs a series of specialized agents, each fulfilling a critical role in the development lifecycle, managed through a develop-test-debug loop to ensure robust, efficient, and modular software development.
 
 ## Features
 
