@@ -56,3 +56,8 @@ Before you begin, ensure you have the following installed:
   ```bash
   pip install -r requirements.txt
 
+
+## Run
+
+When you edited the prompts.py with descriptions of your application and requirements, start the development process by running the agents_dev_team.py script.
+
